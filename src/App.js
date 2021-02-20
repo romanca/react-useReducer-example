@@ -35,7 +35,7 @@ const App = () => {
 
 	const addTodo = (e) => {
 		e.preventDefault();
-		dispatch({ type: 'add', title: title });
+		dispatch({ type: 'add', title });
 		setTitle('');
 	};
 	const removeTodo = (id) => {
