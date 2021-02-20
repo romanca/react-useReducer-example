@@ -50,7 +50,12 @@ const App = () => {
 		<form>
 			<div style={{ width: '100%', textAlign: 'center', marginTop: 20 }}>
 				<input
-					style={{ outline: 'none', borderRadius: 5, height: 30 }}
+					style={{
+						outline: 'none',
+						borderRadius: 5,
+						height: 30,
+						border: '1px solid black',
+					}}
 					type='text'
 					onChange={handleChange}
 					value={title}
